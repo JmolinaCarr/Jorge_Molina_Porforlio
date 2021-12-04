@@ -46,13 +46,12 @@ p {
   border: 2px solid black;
 }
 
-.work {
+* {
   margin: 0;
-  border: 2px solid black;
-  
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
 }
-
-.Pastel {
-  margin: 0;
-  border: 2px solid black;
+.grid-container {
+ 
 }
