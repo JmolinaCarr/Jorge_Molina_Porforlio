@@ -86,7 +86,10 @@ p {
     grid-row-gap: 20px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 4; 
+    .div1 { 
+      grid-area: 1 / 1 / 2 / 2; 
+    }
+    .div2 { 
+      grid-area: 1 / 2 / 2 / 4; 
       text-align: inline;
     }
