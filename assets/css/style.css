@@ -1,3 +1,6 @@
+body {
+  background-color: #e7e7ec;
+}
 .header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #31343b;
@@ -46,12 +49,31 @@ p {
   border: 2px solid black;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 30px;
-}
-.grid-container {
- 
-}
+.parent {
+  display: grid;
+  height: 600px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  }
+  
+  .work { grid-area: 1 / 1 / 4 / 2; 
+        background-color: #e7e7ec;
+  }
+  .surf { grid-area: 1 / 2 / 2 / 4; 
+    border: 3px solid #9fcace;
+    background-color: #8794a5;
+    text-align: bottom;
+      }
+  .LED-Wall { grid-area: 2 / 2 / 3 / 3; 
+    border: 3px solid #9fcace;
+  }
+  .calculator { grid-area: 2 / 3 / 3 / 4; 
+    border: 3px solid #9fcace;
+  }
+  .pastel { grid-area: 3 / 2 / 4 / 3; 
+    border: 3px solid #9fcace;
+    background-color: #748ca3
+  }
+  .run-buddy { grid-area: 3 / 3 / 4 / 4; 
+    border: 3px solid #9fcace;
+  }
