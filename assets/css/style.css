@@ -45,13 +45,10 @@ p {
 }
 
 .hero {
-  margin: 0;
+    margin: 0;
   border: 2px solid black;
-}
+}  
 
-.about-me {
-  position: relative;
-}
 .parent {
   display: grid;
   height: 600px;
@@ -80,3 +77,16 @@ p {
   .run-buddy { grid-area: 3 / 3 / 4 / 4; 
     border: 3px solid #9fcace;
   }
+
+  .contact-me {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; 
+      text-align: inline;
+    }
